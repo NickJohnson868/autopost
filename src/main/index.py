@@ -116,4 +116,4 @@ if __name__ == '__main__':
             post_time = file.read().replace('\n', '').replace('\r', '')
         if now_localtime == post_time:
             run()
-        time.sleep(1)
+        time.sleep(10)
